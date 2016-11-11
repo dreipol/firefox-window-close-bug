@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<a href="https://google.com">Close Window</a>
+<script>
+  window.onbeforeunload = window.onunload = function() {
+    window.close();
+  }
+</script>
+</body>
+</html>
